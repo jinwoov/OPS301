@@ -69,3 +69,51 @@
 
 ## Content delivery networks
 - CDN is server network that delivers temporarily stored. CDN stores this content in distributed location and serves it to users as way to reduce the distance between your website visitors. Having the cache data to the end user allows you to serve content faster and helps websites better each a global audience.
+
+---
+## **Video**
+
+- Topology is a layout of how a network communicates with different devices.
+- wired and wireless
+    - Star topology
+        - all computers are connected to a hub (one central point)
+            - one computer fail, then other computers will not fial
+            - if the central point fails, all of the computer fails.
+            - **single point of failure**
+    - ring topology
+        - each computer is connected together and forms a ring
+        - each data packet is going around 
+        - it is very old
+        - advantage is that it is easy to install and execute
+        - if one computer goes down or single distorment of cable occurs all of the system fails.
+    - bus topology
+        - old topology
+        - each of the computer and network devices are connected to backbone. 
+        - BNC, T connector
+        - cheap and easy to implement
+        - it requires both end to have terminator
+        - there must be no loose end
+        - if terminator is disconnected in one end, it bounce back the data packet.
+            - this event is called signal reflection
+            - data flow is disrupted
+    - mesh topology each computer is connected to all of the devices
+        - advantage is high redundancy
+        - computer will still be able to work
+        - can be expensive
+        - rarely used for local
+        - internet is example of this occurrence
+- Wireless topology 
+    - wire end and wireless 
+    - wireless access point acts as bridge
+    - adhoc: simple topology
+        - doesn't require wire, cable, router
+        - p2p network
+        - directly connected to each other
+        - each devices are required to setup of security
+    - wireless mesh, devices are interconnected to each other. each wireless point will talk to each other
+        - very redundant
+
+---
+
+## Network Design and Best Practices
+- 
