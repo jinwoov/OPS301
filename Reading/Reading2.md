@@ -56,4 +56,16 @@
 - The use of public cloud also requires updates to security procedures to ensure continued safety and access. A secure cloud demands a secure underlying network. 
 
 ## Mesh networks
-- 
+- Mesh networks self-configure and self-organize, searching for the fastest, most reliable path on which to send information.
+
+### Types of mesh networks
+- full mesh technology: every network is connected to each other. It costs more to execute, hence partial mesh topology is used more often
+- wireless mesh network: connected through wireless network
+
+## Load Balancers and networks
+- efficiently distribute tasks workloads and network traffic across available servers.
+- Load balancer is like air traffic control, watches which flight is coming in and directs it toward the router or server best equipped to manage it.
+- it is to avoid resource overload and optimize available resources.
+
+## Content delivery networks
+- CDN is server network that delivers temporarily stored. CDN stores this content in distributed location and serves it to users as way to reduce the distance between your website visitors. Having the cache data to the end user allows you to serve content faster and helps websites better each a global audience.
