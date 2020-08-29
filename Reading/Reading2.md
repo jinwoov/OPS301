@@ -23,4 +23,7 @@
     - packet switching: breaking down data into independent component called packets. 
     - Message switching: sends message in its entirety from the source node. 
 - Ports: Ports are suite or room numbers if IP address is hotel.
+- Network cable types: most common network cable types are Ethernet twisted pair, coaxial and fiber optic. The choice of cable will be depending on the network setting.
+
+# Examples of computer networks
 - 
