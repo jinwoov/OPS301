@@ -39,4 +39,21 @@
 ### Main types of network architecture
 - P2P, peer-to-peer and client/server.
 - In P2P, two or more computers connects are a peers, meaning they have equal power and privileges on the network. 
+- P2P doesn't need central server
+- In a client/server network, client access and communicate through the server. In client/server architecture, they don't share resources.
+- Client/server is sometimes called tiered model because it's designed with multiple levels or tiers.
+
+### Network Topology
+- refers how the nodes and links in network are arranged
+    - Bus network topology: when network node is connected directly using main cable.
+    - Ring topology: nodes are connected in a loop. Each device has exactly two neighbors. Connected indirectly through multiple nodes.
+    - Star network: all nodes are connected to a single, central hub and each node is indirectly connected through that hub.
+    - Mesh topology: Overlapping connection between nodes.
+
+## Security
+- The defense mechanism can be firewall
+- Process of authentication adds another layer of security.
+- The use of public cloud also requires updates to security procedures to ensure continued safety and access. A secure cloud demands a secure underlying network. 
+
+## Mesh networks
 - 
