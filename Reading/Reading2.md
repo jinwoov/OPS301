@@ -25,5 +25,18 @@
 - Ports: Ports are suite or room numbers if IP address is hotel.
 - Network cable types: most common network cable types are Ethernet twisted pair, coaxial and fiber optic. The choice of cable will be depending on the network setting.
 
-# Examples of computer networks
+## Computer networks and the internet
+- Internet connection are created using protocol. Those protocols include hypertext transfer protocol (http). 
+- Internet service providers (ISPs) and network service providers (NSPs) provides the ground that allows the transmission of packets of data or information over the internet. 
+
+## How does it work?
+- Computer connects nodes (computers, routers, and switches) using cables, fiber optics or wireless signals. These connections allows network to communicate with each other.
+- Network follows protocols that defines how communication are sent and received. 
+- Each device are assigned with unique identifier, IP. 
+
+## Architecture
+
+### Main types of network architecture
+- P2P, peer-to-peer and client/server.
+- In P2P, two or more computers connects are a peers, meaning they have equal power and privileges on the network. 
 - 
