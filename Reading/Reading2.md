@@ -15,3 +15,5 @@
 - VPN: Virtual private network. Secure, point-to-point connection between two network end points.
 
 ## Important terms and concepts
+- IP address: unique identifier assigned to every device connected to network that uses the Internet Protocol for communication. 
+- Nodes: connection point inside a network that can receive, send, create, or store data.  
