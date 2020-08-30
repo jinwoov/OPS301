@@ -141,4 +141,17 @@
 - Gateway Layer
     - Make sure you spec the right equipment
     - UTM -> ssl ips throughput
+    - Use one line architecture
+    - Standardize on your own IP schema
+    - Port forwarding 
+        - port # + last digit of IP
+- Core Layer
+    - Apply one core switches to the router instead of a lot of switches
+    - make it as flat as possible
+    - managed switch is better than unmanaged switch
+    - Color code different types of traffic
+    - PoE switch if you have APs
+    - Name the interfaces
+- Access layer
+    - set the expectation
     - 
