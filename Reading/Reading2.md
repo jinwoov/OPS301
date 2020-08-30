@@ -128,4 +128,17 @@
     - Access = Switch/Access point
     - Devices = end devices
 - Scalable Architecture
+    - Router stick (Scalable)
+    ![Router Stick](./assets/Router-stick.png)
+- ISP Layer
+    - Replace:
+        - Preferred method
+        - Swap out the modem with other 
+        - Almost all of the ISP modem, they call it maintenance fee
+    - Bridge:
+        - Want to bridge it
+    - DMZ:
+- Gateway Layer
+    - Make sure you spec the right equipment
+    - UTM -> ssl ips throughput
     - 
