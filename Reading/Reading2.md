@@ -154,4 +154,17 @@
     - Name the interfaces
 - Access layer
     - set the expectation
-    - 
+    - unmanaged is ok
+    - accounts for 20-30% port expansion in the future
+    - Dual band APs at the very minimum
+        - 2.4 - 2.5 300 series 
+    - Wireless AC is must
+    - use fixed Wi-Fi channels rather than auto (spectrum analyzer)
+    - Heat-map for fine tuning
+        - measure your speed
+- When talking to the client
+    - ask how many wireless devices
+    - How many wired devices
+    - what services are needed (music, surveilllance, control system)
+    - site survey the floor plan
+    - ISP understand whats available
