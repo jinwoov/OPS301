@@ -121,4 +121,11 @@
     - Scalable and modular
     - ISP (pipe) -> Gateway(router) -> core -> access -> devices 
     - how traffic flows
+- Framework
+    - ISP = Modem
+    - Gateway = Router
+    - Core = Switch
+    - Access = Switch/Access point
+    - Devices = end devices
+- Scalable Architecture
     - 
