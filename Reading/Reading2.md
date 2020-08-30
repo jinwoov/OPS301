@@ -116,4 +116,9 @@
 ---
 
 ## Network Design and Best Practices
-- 
+- Network Architecture
+    - Building blocks mindset
+    - Scalable and modular
+    - ISP (pipe) -> Gateway(router) -> core -> access -> devices 
+    - how traffic flows
+    - 
