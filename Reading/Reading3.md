@@ -26,4 +26,36 @@
 
 ## Windows 10 Hardening Techniques
 
--
+- Hardening operating system is one of the most important steps toward sound information security. 
+- Hardening is to reduce any attack surface that attackers have available to them. 
+- Only allowing certain things to operate with given authorization and nothing more.
+- Hardening is integral part of information security and its is comprise of deter, deny, delay, and detection
+
+### Secure installation
+- recommended that user install fresh windows 10 on a system.
+
+### Clean up unwanted programs
+- Delete unneeded deleted.
+
+### Encryption
+- Bitlocker is a software that encryption that comes with Windows 10. 
+
+### Updates, patches and service packs.
+- Update the system
+
+### BIOS configuration
+- Configure it so you use system that you need
+
+### Enable guards
+- Device Guard, Credential Guard, Application Guard, Exploit Guard
+
+---
+
+## From Video
+- Critical to access any threat. And also you can check threat.
+- Agent don't need configuration to get full access, rather it is available anytime
+- Footprint: how many ram, cpu, disk space, and network bandwidth.
+- have to find the think that match well
+- deploy agent that does multiple work with agent. Interoperability 
+- just looking at delta
+- 
