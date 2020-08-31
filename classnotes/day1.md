@@ -49,18 +49,33 @@
 - agile devops: they can manage change very differently.
 
 
-## what is change management?
-- four dimension model: 
-    1. organizations & people
-    2. Information and technology
-    3. partners suppliers: partner that providing the service
-        - are they are going to be there for you when you need a service
-        - are they source and purchasing things that how you want it to be
-    4. value streams & processes
-        - added ITIL v4.
-        - how does my application impact client
-        - how does it add value to the client?
-        - high availability
-    - four things to think about when you are providing to the customer
-    - if these correlates then service is bringing the value
-    - 
+## four dimension model: 
+1. organizations & people
+    - whos going to use it
+2. Information and technology
+3. partners suppliers: partner that providing the service
+    - are they are going to be there for you when you need a service
+    - are they source and purchasing things that how you want it to be
+4. value streams & processes
+    - added ITIL v4.
+    - how does my application impact client
+    - how does it add value to the client?
+    - high availability
+- four things to think about when you are providing to the customer
+- if these correlates then service is bringing the value
+- service value system (SVS): all the components of services work together to create a service
+- think about what client will need instead of you as the service provider can provide
+
+## Four dimension of service
+- four components: guiding principal, governance, service value chain, continual improvement practices
+    - if you tell people to make strong pw but not implement policy then it is low governance.
+
+## AGILE
+- agile: create something that can be usable but not perfect. 
+- idea: you just do first iteration then you release it. Then you make changes then you release iteration 2.
+- similar github 
+
+- idea -> dev -> bug fix -> release
+
+## Waterfall
+- start -> med -> final
