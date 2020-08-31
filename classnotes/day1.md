@@ -23,5 +23,10 @@
 - Drawback: very high cost
 - Advantage: associated with thin client 
 
-## Windows
-- DHCP
+## Windows server blade
+- DHCP:
+- DNS: Server
+- Active directory: identity management to manages people who can sign in 
+- Domain: website 
+    - ie: codefellows.com
+    - local: student.codefellows.com
