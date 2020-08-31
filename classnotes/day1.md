@@ -1,5 +1,3 @@
-
-
 ## Cloud security
 - separation of duty:
     - AWS
@@ -41,4 +39,28 @@
     - blade: that looks like they have hard drive its server
 - File server will rely on local or ad to 
 - file server is there to data vs ad is just to store user's profile.
-- 
+- server is there to be replaceable.
+- when server is replaced it knows the configuration and it can be changed and it will configure to previous settings.
+
+## how to transition from p2p to server side
+- are we going to deploy it on-prem or some other server
+- RFC: request for change
+- change at scale:
+- agile devops: they can manage change very differently.
+
+
+## what is change management?
+- four dimension model: 
+    1. organizations & people
+    2. Information and technology
+    3. partners suppliers: partner that providing the service
+        - are they are going to be there for you when you need a service
+        - are they source and purchasing things that how you want it to be
+    4. value streams & processes
+        - added ITIL v4.
+        - how does my application impact client
+        - how does it add value to the client?
+        - high availability
+    - four things to think about when you are providing to the customer
+    - if these correlates then service is bringing the value
+    - 
