@@ -30,3 +30,15 @@
 - Domain: website 
     - ie: codefellows.com
     - local: student.codefellows.com
+- Windows server for file server
+    - file server let you manages identity
+    - it points back to shared folder
+    - share points
+- Raid: what types of raid configuration
+    - raid-0: extra 
+    - goes by numbers
+- Domain and AD can used interchangeably 
+    - blade: that looks like they have hard drive its server
+- File server will rely on local or ad to 
+- file server is there to data vs ad is just to store user's profile.
+- 
