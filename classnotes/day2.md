@@ -1,0 +1,5 @@
+- VLAN is something you can divide into two logicals.
+- One physical topology
+- Logical 
+- when two computer is connected to each other, it is still topology
+    - very minimum

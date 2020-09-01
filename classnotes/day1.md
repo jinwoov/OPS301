@@ -70,12 +70,19 @@
 - four components: guiding principal, governance, service value chain, continual improvement practices
     - if you tell people to make strong pw but not implement policy then it is low governance.
 
-## AGILE
+## Agile
 - agile: create something that can be usable but not perfect. 
 - idea: you just do first iteration then you release it. Then you make changes then you release iteration 2.
 - similar github 
 
 - idea -> dev -> bug fix -> release
 
-## Waterfall
+## Waterfall (traditional)
 - start -> med -> final
+
+## Change advisory board (CAB): team of high level advisory
+- stakeholders, supervisor
+- can be change depending on the scale of the change
+
+## change types by urgency
+- refer to notes
