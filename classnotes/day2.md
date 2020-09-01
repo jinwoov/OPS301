@@ -22,4 +22,16 @@
     - mimics the server
     - server to client
     - central administration
-    - 
+- mesh topology
+    - no single point of failure
+    - highly resilient
+    - dis: $$$, time
+
+---
+
+Hub
+- is one collision domain
+- everything that is blasted by hub is going to be go to every computer
+- like chat site
+    person = sendmessage=> everyone
+- 
