@@ -33,5 +33,7 @@ Hub
 - is one collision domain
 - everything that is blasted by hub is going to be go to every computer
 - like chat site
-    person = sendmessage=> everyone
+    person = send message=> everyone
+- sniffing: when you snuck into the hub and you can see everything what everyone is doing.
+- A network collision occurs when more than one device attempts to send a packet on a network segment at the same time. 
 - 
