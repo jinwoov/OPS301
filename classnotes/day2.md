@@ -3,3 +3,19 @@
 - Logical 
 - when two computer is connected to each other, it is still topology
     - very minimum
+    - one network
+        - one logical
+        - one physical
+        - wired
+- Bus Topology
+    - aka line topology
+    - single point of failure
+    - Half duplex: only one direction, cant be both way
+        - bad performance
+- ring toplogy
+    - two neighbors connected
+    - half duplex when one ring
+    - full duplex when two ring
+    - full duplex is prefer since it has redundancy
+    - all of the computers that has be turned off
+    - 
