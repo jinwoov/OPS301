@@ -9,22 +9,19 @@
 dateShort=`date -I`
 timeNowLocal=`date +%R`
 timestamp="$dateShort $timeNowLocal"
-fileName="$dateShort $timeNowLocal.txt"
 
 # Declaration of functions
 ## Main function that creates the file
 CreatingFile() {
-cp "/var/log/syslog" "./"    
+    cp "/var/log/syslog" "./"
+    echo "$timestamp copying file into current directory" >> "syslog"
 }
 
 ## Appending the date to the file
 Output() {
-    echo "$timestamp file before appending:"
-    ls ./
+    echo "$timestamp Appending"
     EmptySpace
-    mv "./syslog" "./syslog $fileName"
-    echo "$timestamp file after appending:"
-    ls ./
+    echo "$timestamp Appending" >> "syslog"
 }
 
 ## HELPER METHODS ##
