@@ -12,10 +12,14 @@
     - single point of failure
     - Half duplex: only one direction, cant be both way
         - bad performance
-- ring toplogy
+- ring topology
     - two neighbors connected
     - half duplex when one ring
     - full duplex when two ring
     - full duplex is prefer since it has redundancy
     - all of the computers that has be turned off
+- star topology
+    - mimics the server
+    - server to client
+    - central administration
     - 
