@@ -25,7 +25,7 @@ Output() {
 }
 
 ## HELPER METHODS ##
-## Created a mock statusbar that 
+## Created a mock statusbar 
 ProgressBar() {
     echo "$timestamp Creating a file with Date and time"
     echo -ne '#####                   (33%)\r'
