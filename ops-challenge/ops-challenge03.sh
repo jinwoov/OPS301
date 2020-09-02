@@ -15,6 +15,7 @@ timestamp="$dateShort $timeNowLocal"
 LOGFILE="./log.txt"
 
 # FUNCTION
+# DirectoryPath is to get an user input to directory of their choice 
 function DirectoryPath()
 {
     read -p "Please enter directory path way (default will be current directory) " DIRECTORYPATH
@@ -26,7 +27,7 @@ function DirectoryPath()
     echo "User chose $DIRECTORYPATH as a file path" | tee -a $LOGFILE
 
 }
-
+## Asking permission to the user 
 function AskPermission()
 {
     read -p "Please enter permission number to change (ie. 755) " PERMISSIONNUM
@@ -38,6 +39,7 @@ function AskPermission()
     echo "User chose permission to be $PERMISSIONNUM" | tee -a $LOGFILE
 }
 
+## Finally changing the permission for the directory
 function FinalWork()
 {
     sudo chmod -R $PERMISSIONNUM $DIRECTORYPATH
@@ -47,6 +49,7 @@ function FinalWork()
 
 
 ### HELPER METHOD
+## Status bar using interation
 function StatusBar()
 {
     echo "Changing permission in progress"
@@ -61,8 +64,8 @@ function StatusBar()
     done
     echo " DONE "
 }
+# MAIN (invoing the functions)
 
-# MAIN
 echo $timestamp >> $LOGFILE
 DirectoryPath 
 AskPermission
