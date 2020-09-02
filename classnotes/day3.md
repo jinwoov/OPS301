@@ -1,0 +1,8 @@
+- Windows 10 cannot join domain
+- In order to join client architecture. you need to join domain
+- You cannot join different os
+- Every computer has edition. 
+- Windows Home is everyday use
+- what version is needed
+- version can be real setback if its behind the version
+- Version of the application 
