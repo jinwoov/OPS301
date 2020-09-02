@@ -6,7 +6,7 @@
 # Description of purpose: To change user's authorization over files and configure permission everything in a directory
 
 
-# Variable
+# VARIABLES
 DIRECTORYPATH=""
 PERMISSIONNUM=""
 dateShort=`date -I`
@@ -68,3 +68,5 @@ DirectoryPath
 AskPermission
 FinalWork
 echo >> $LOGFILE
+
+# END 
