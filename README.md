@@ -14,4 +14,5 @@ This repo is for Ops 301 coursework
 
 [1. Reading: Change Enablement in ITIL 4](./Reading/Reading1.md)  
 [2. Reading: Networking](./Reading/Reading2.md)  
-[2. Reading: Endpoint Acquisition](./Reading/Reading3.md)  
+[3. Reading: Endpoint Acquisition](./Reading/Reading3.md)  
+[4. Reading: Virtual Private Network (VPN)](./Reading/Reading4.md)  
