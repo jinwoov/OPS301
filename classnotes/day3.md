@@ -6,3 +6,11 @@
 - what version is needed
 - version can be real setback if its behind the version
 - Version of the application 
+- USB is hardware interface
+- gartner magic quadrant
+- Dashboard
+    - threat activity
+    - Logs and report
+- Domain tag: CORP 
+    - IT support
+- Principal of least preveilige: if you dont need it then you don't need it. 
