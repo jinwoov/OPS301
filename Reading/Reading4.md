@@ -16,7 +16,7 @@
 - When choosing VPN its important to consider how you are thinking about you intends to use the service.
 - `Kill switch` is a method of setup to monitor if there is any changes in your connection.
 - if your connection is lost from your VPN server, it automatically stops your device or terminate specific app from connecting to the internet through your ISP.
-- Splitting Tunneling let you gain access t web service of which you want or need the protection of tunneling, without losing direct access to local web services.
+- Splitting Tunneling let you gain access to the web service of which you want or need the protection of tunneling, without losing direct access to local web services.
 - Split tunneling helps to save bandwidth.
 - There are different protocol for VPN tunneling. 
 - VPN tunneling protocol is an set of rules for data transmission and encryption.
@@ -41,7 +41,7 @@
     - THe advantage of SSTP is that it cannot be easily blocked.
     - difficult to perform independent examination of the codes behind the protocol.
 - OpenVPN
-    - OpenVPN is tunneling protocl developed using open source program.
+    - OpenVPN is tunneling protocol developed using open source program.
     - it is fast and capable of traversing VPN-blocking software.
 
 ---
