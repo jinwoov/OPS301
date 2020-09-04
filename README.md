@@ -16,3 +16,4 @@ This repo is for Ops 301 coursework
 [2. Reading: Networking](./Reading/Reading2.md)  
 [3. Reading: Endpoint Acquisition](./Reading/Reading3.md)  
 [4. Reading: Virtual Private Network (VPN)](./Reading/Reading4.md)  
+[5. Reading: Linux DNS Server](./Reading/Reading5.md)  
