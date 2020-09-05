@@ -45,6 +45,6 @@ ClearContent $WTMP
 
 
 
-### Clearing the log is important as to prevent any detection from fori
+### Clearing the log is important as to prevent any detection from forensic team. For the forensic team, they can use this data to analyze who and what kind of attack was done during the session. Attack leave malware for persistent connection, but that can lead a breadcrumbs for defensive to find where the attack is coming from.
 
 #END
