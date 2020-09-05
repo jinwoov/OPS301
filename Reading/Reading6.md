@@ -26,4 +26,23 @@
 - Domain controller: that server that is used to authenticate users and authorize users to use specific apps
 - IT resources are app, system, file, network
 - these resources are known as domain and domain controller allows only certain user to access this resources. Like a gate keeper
+- `directory service database` = `identity provider`
+- identity provider manage username and password
+- when user enters through the portal to remote in they are required to sign in with authentication
+    - when enter, it will run through domain control which then queries directory service database.
+    - if the credential matches the db, then domain controller will authorize user to access the resources.
+    - if fails, domain controllers will prevent the users.
+- domain controllers was designed during the late 90's and was on-prem.
+- Active Directory Domain services
+    - ADDS is active directory + domain
+    - ADDS federate all of the users throughout windows server
+    - use active directory as manage the users
+- Azure directory service
+    - cloud based service
+    - user authentication 
+    - azure AD allows cloud platform authentication and authorization to use cloud services within the resource group.
+    - single sign-on access
+    - Not intended to be a solve or replacement of AD, rather it was designed to compliment the AD
+- LDAP: directory houses critical info (auth info). This can be for various application.
+- 
 - 
