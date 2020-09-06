@@ -17,5 +17,5 @@ This repo is for Ops 301 coursework
 [3. Reading: Endpoint Acquisition](./Reading/Reading3.md)  
 [4. Reading: Virtual Private Network (VPN)](./Reading/Reading4.md)  
 [5. Reading: Linux DNS Server](./Reading/Reading5.md)  
-[6. Windows Server](./Reading/Reading6.md)  
-[7. Network Segmentation](./Reading/Reading7.md)  
+[6. Reading: Windows Server](./Reading/Reading6.md)  
+[7. Reading: Network Segmentation](./Reading/Reading7.md)  
