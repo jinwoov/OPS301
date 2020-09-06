@@ -44,5 +44,39 @@
     - single sign-on access
     - Not intended to be a solve or replacement of AD, rather it was designed to compliment the AD
 - LDAP: directory houses critical info (auth info). This can be for various application.
-- 
-- 
+- Single Sign on (SSO)
+- Active directory is not a open source and is privately own by Microsoft.
+- AD contains database
+- When AD is installed on server, it becomes domain controller
+- Backup is important to keep the saved settings.
+- The estimated time for Windows server is five years.
+- Some of the best practice for Active Directory are
+    1. Change the default security settings: change default settings, since attacker has pretty good understanding of default settings
+    2. Utilize principles of least privilege in AD roles and groups: giving least privileges, you reduce attackers surface from intruders
+    3. Control administration privileges and limit accounts in the Domain Admins group 
+    4. Don’t use a domain controller like it’s a computer: don't install software or applications on a domain controller
+    5. Patch AD regularly
+    6. Monitor nd audit Ad Health: 
+    7. Define a naming convention at beginning thi will go a long way in keeping AD
+    8. Clean up AD regularly
+    9. Get domain ime right.  
+- To secure the AD, patch, upto date and utilize principles of least privilege. 
+- cost of AD can be calculated as 
+    ```
+    Costs of Active Directory =
+    servers + software + hosting + backup + security + monitoring + VPNs
+    + IT admin + third-party SW + multi-factor authentication + governance
+    ```
+- The advantage of using AD
+    1. Greater admin control over Windows resources
+    2. Improve efficiency for users and admins
+    3. More secure Windows systems, networks, & data
+    4. Reliable and thorough reporting for auditing & compliance
+- The disadvantage of using AD
+    1. Reduced functionality with Mac & Linux systems
+    2. Difficult to configure and manage
+    3. Requires on-premises hardware
+    4. High upfront costs
+    5. Limited connectivity to cloud apps & infrastructure
+- With secure infrastructure, applying group-base management at scale is must have big organization
+- Some of the alternative to Windows AD are OpenLDAP, G suite, Jump cloud.
