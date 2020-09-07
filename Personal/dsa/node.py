@@ -27,7 +27,7 @@ class linkedlist:
             raise IndexError("There is nothing in the linkedlist")
         else:
             current = self.head
-            while current is not None:
+            while current != None:
                 print (current.value)
                 current = current.next
 
