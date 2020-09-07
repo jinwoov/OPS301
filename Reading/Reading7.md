@@ -19,4 +19,16 @@
 ---
 
 ## What Is Network Segmentation?
-- 
+- The purpose of segmentation is to improve network performance and security. 
+- Zero trust security 
+- Segmentation works by controlling how traffic flows among the parts. you could stop all traffic in one part from reaching another 
+- Segmentation is enforced by using internal firewalls, and access control list (ACL) and virtual local area network (VLAN).
+- Today, software defined access technology is used to group and tag network traffic.
+- It then uses traffic tags to enforce segmentation policy on the network equipment. 
+- `Microsegmentation` rely on heavy information in segmentation policies like application layer information.
+- Benefit of network segmentation 
+    - Segmentation reduces congestion
+    - Can limit cyberattack damage
+    - protect valuable devices.
+    - reduce the scope of compliances
+    
