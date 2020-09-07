@@ -33,4 +33,27 @@
 
 ## What is Open Shortest Path First (OSPF)?
 - Is used to distribute IP routing info throughout a single Autonomous System (AS) in an IP network.
+- OSPF is link state routing protocol
+    - exchange topology info to info with their nearest neighbors
+    - utilizes Dijkstra algorithm
+- The complete knowledge of network topology allows routers to calculate routes that satisfy particular criteria
+- The disadvantage of the link routing is that it doesn't scale well as more routers are added to the topology.
+- IGP: Interior Gateway Protocol
+- The multi-level hierarchy = "area routing"
+- OSPF version 3
+    - OSPF uses IPv4
+    - OSPF v3 is compatible with IPv6 128-bit address space
+
+
+---
+
+## Routing
+- each router only knows next jump
+- The IP packets are pass along and is compared to see which route is best option to take.
+- To define where the routing should go network admin uses static routing
+    - this will force router to use particular way
+    - No overhead 
+    - Commonly used when it only has one way
+    - static route is difficult and easy to cause routing looop
+    - when one is down, then network admin has to manually configure again.
 - 
