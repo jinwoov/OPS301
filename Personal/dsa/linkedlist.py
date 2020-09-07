@@ -23,7 +23,7 @@ class linkedlist:
             current.next = newNode
     
     def PrintLL(self):
-        if self.head is None:
+        if self.head == None:
             raise IndexError("There is nothing in the linkedlist")
         else:
             current = self.head
