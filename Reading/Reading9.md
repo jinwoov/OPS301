@@ -47,7 +47,7 @@
 
 ---
 
-## Routing
+## Routing (professor messer)
 - each router only knows next jump
 - The IP packets are pass along and is compared to see which route is best option to take.
 - To define where the routing should go network admin uses static routing
@@ -56,4 +56,34 @@
     - Commonly used when it only has one way
     - static route is difficult and easy to cause routing looop
     - when one is down, then network admin has to manually configure again.
-- 
+- Dynamic Routing
+    - allowing the network to automate the process
+    - when there is changes, router will know how to send traffic across the network if one goes down
+    - very scalable
+    - disadvantage
+        - router uses bandwidth, cpu, memory
+        - requires configuration
+- Default Route
+    - one way to send in and out
+    - routing doesn't have to make any decision
+    - only one route
+    - if there are multiple routes then it can simplify the process
+
+---
+
+## DDos
+- distributed denial of service
+- cyberattack on a specific server or network
+- overwhelms the system with fake packet, so it will disrupt normal network use
+- when attacker keep sending packets from one source then it is called "Dos"
+- If attack comes from multiple source then it is called DDoS
+- Eat up bandwidth, server is too preoccupied because of attack
+- How does attacker get other computer to attack
+- attacker will attach malware and infect other computer
+- the malware will be installed and this computer will be attack alongside
+- these computers are called botnet
+- DDos can last hours or days
+- why do people do DDoS
+    - Financial reason, they are doing ot competitor
+    - Political
+    - for fun
