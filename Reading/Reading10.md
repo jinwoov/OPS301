@@ -22,5 +22,14 @@
 
 ---
 
-## DMZ Network
-- DMZ acts as a exposed point to an untrusted network, commonly call internet.
+## What is a web server?
+- Webserver for hardware is computer that stores web server software and a websites component file
+- For the software side, it is HTTP server. This software use URLs and HTTP. HTTP server can be accessed through the domain names.
+- Static web server: stack consists of a computer with HTTP server. The server sends request to the host and is come back as browser
+- Hosting file: Web server has to store the websites's files
+- Communicate through HTTP
+    - Textual: plain test and human readable
+    - stateless: server and client doesn't remember previous communication
+- only client can make HTTP request and only to servers. Server can only make serve the information to the client
+- The dynamic content is the server generates it on the fly from the database
+    - more challenging to apply dynamic content
