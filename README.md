@@ -21,3 +21,4 @@ This repo is for Ops 301 coursework
 [7. Reading: Network Segmentation](./Reading/Reading7.md)  
 [8. Reading: Identity Management](./Reading/Reading8.md)  
 [9. Reading: OSPF Routing](./Reading/Reading9.md)  
+[10. Reading: Linux Web Server](./Reading/Reading10.md)  
