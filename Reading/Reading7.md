@@ -8,7 +8,7 @@
 - using the segmentation, network can form a microperimeter around the protect surface. 
 - Segmentation can create difficulty to the attackers from access sensitive information even after penetrating perimeter
 - The use case for this is  
-    - Guest wireless network: company can offer wifi service to gues and contractors. 
+    - Guest wireless network: company can offer wifi service to guest and contractors. 
     - User group access: creating individual department into different subnets consisting of the authorize group members and the DAAS they need to do their jobs.
     - Segmentation allows a company to isolate applications in public and hybrid cloud environments.
 - physical segmentation involves breaking down a larger network into a collection of smaller subnets.
