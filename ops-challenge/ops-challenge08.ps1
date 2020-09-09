@@ -5,6 +5,10 @@
 
 
 # Declaring the functions
+<#
+.Description
+To Create a Franz in to the users using powershell commands
+#>
 function CreateUser()
 {
     New-ADUser `
@@ -21,6 +25,12 @@ function CreateUser()
         -Country "USA"
 }
 
+## STRETCH GOALS
+
+<#
+.Description
+To Create a group using powershell commands
+#>
 function CreateGroup()
 {
     New-ADGroup `
@@ -30,6 +40,10 @@ function CreateGroup()
         -DisplayName "TPS Department"
 }
 
+<#
+.Description
+To Create an organization unit using powershell commands
+#>
 function CreateOU()
 {
     New-ADOrganizationalUnit `
