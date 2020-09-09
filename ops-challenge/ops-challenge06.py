@@ -9,7 +9,6 @@ from subprocess import Popen, PIPE
 
 
 # Declaration of variables
-# ls command
 currentUser = os.popen("whoami").read()
 myIP = os.popen("ip a | grep inet").read()
 hardwareInfo = os.popen("sudo lshw -short").read()
