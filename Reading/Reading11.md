@@ -5,7 +5,7 @@
 - Azure is cloud computing service that provides similar service to Amazon web services or Google Cloud Platform
 - Traditionally business would have to host their own server using its own hardware
 - Enterprise will had to pay someone to keep their connection solid.
-- When you need more computing powers,you can just purchase it off from the site instead of looking for new piece of hardwar
+- When you need more computing powers,you can just purchase it off from the site instead of looking for new piece of hardware
 - YOu can host whatever you need on the cloud
 - Originally, it was called `Windows Azure`, but they transitioned to `Microsoft Azure`.
 - Azure offers Active Directory which is hosted on Azure and it allows organization to have all those centralized administration features without requiring them to host their own AD.
@@ -24,7 +24,7 @@
 - `Role-based access control` (RBAC): 
     - allow one user to manage virtual machines in subscriptions
     - allow a DBA group to manage SQL database
-    - Allow a user to manage all resources in a resouce group
+    - Allow a user to manage all resources in a resource group
     - Allow an application to access all resources in a resource group
 - Azure AD encourage admin to not to host non-employee accounts in corporate directory
 - Use modern password protection
