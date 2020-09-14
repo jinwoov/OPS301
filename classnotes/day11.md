@@ -16,3 +16,21 @@
 
 ---
 
+- hybrid is keep both of the account and sync both it
+- perform one time sync to azure and severe them
+- Get the other completely
+- exchange server - on prem email server
+- Azure - IaaS
+- EXIM email alternative
+- sendmail (proof point)
+- Sharepoint - dropbox
+    - google 
+    - ftp
+    - collaboration
+
+- architectures
+    - public, private, hybrid
+- cloud server delivery types
+    - sass
+
+- azure AD
