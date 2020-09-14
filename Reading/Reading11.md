@@ -14,5 +14,18 @@
 
 ## Identity management
 
-- Identity management is the process of authenticating and authorizaing security principals.
-- 
+- Identity management is the process of authenticating and authorization security principals.
+- Support single enterprise directory
+- Enforce and measure key security attributes when authenticating all users
+- uses password and multi factor authentication.
+- Single resource can change all the settings in one place
+- SSO is another benefit
+- By signing in just once using single user account, you can grant access to all the application and resources as per the business needed.
+- `Role-based access control` (RBAC): 
+    - allow one user to manage virtual machines in subscriptions
+    - allow a DBA group to manage SQL database
+    - Allow a user to manage all resources in a resouce group
+    - Allow an application to access all resources in a resource group
+- Azure AD encourage admin to not to host non-employee accounts in corporate directory
+- Use modern password protection
+- Disable legacy authentication methods
