@@ -23,3 +23,4 @@ This repo is for Ops 301 coursework
 [9. Reading: OSPF Routing](./Reading/Reading9.md)  
 [10. Reading: Linux Web Server](./Reading/Reading10.md)  
 [11. Reading: Azure Cloud Administration](./Reading/Reading11.md)  
+[12. Reading: DevOps](./Reading/Reading12.md)  
