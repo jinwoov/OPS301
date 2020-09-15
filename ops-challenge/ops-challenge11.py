@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+from os import remove
+
 # Script Name: Ops Challenge: Class 11
 # Author: Jin Kim
 # Date of last revision: 09/14/2020
@@ -21,14 +23,16 @@ def writeFile(file):
 ## reading the file
 def readFile(file):
     file1 = open(file, "r")
-    lines = file1.readlines()
-    for line in lines:
-        print(line)
+    print(file1.readlines()[0])
     file1.close()
 
+## Erase the File
+def removeFile(file):
+    remove(file)
+    print("file is gone")
 
 # Main
 writeFile(filePath)
 readFile(filePath)
-
+removeFile(filePath)
 # END
