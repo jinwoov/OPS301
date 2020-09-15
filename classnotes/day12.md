@@ -35,4 +35,60 @@ Why DevOps
 - Agile
     - Iterative
     - MVP: fast and continously go through the cycle.
+
+- CI/CD pipeline
+    - agile based software delivery 
+    - speed, reliability and accuracy
+    - build code
+        - know infrastructure <- ops
+    - running test (continuous integration)
+    - new version of an application (continuous delivery)
     - 
+- IAC
+    - package
+        - windows 10
+        - the office 365
+        - antivirus
+        - Iac package > script
+- strict version control eg: github -> script -> system
+- Cloud + automation -> makes the netflix the perfect example of dev-ops
+- if customer request video and when netflix gets the request, then aws server gets spunned up by the script, after customer is done with the video, it will shutdown the server.
+    - this is possible due to cloud and automation
+- containerization: packaging the software to the predictable repeatable and immutable (no changes)
+    - Remon OS
+    - Cloud
+    - Dev-ops
+    - Docker -> security
+    - Kubernetes -> security
+- Docker container: fire fox -> artifact (object) - > 
+- ability to change ias and still have infrastructure in one piece
+- containerization is big 
+- microservice can be happen 
+- kubernetes - cloud containeriztion product
+    - not have to host os
+
+- configuration automation
+    - chef, ansible, chef, vagrant, puppet, salt stack
+    - system configuration using code
+- vagrant: "box" (linux ubuntu 20.04) and (vim) -> virtual box
+    - dev environment
+- if you are working in development and wants consistent development form
+    - vagrant works best
+- Create a lamp stack
+    - LAMP: Linux, apache, mySQL, php (python sometimes)
+- Deploying vagrant box
+
+```
+- Dev ops skills and certs that are in demand
+    - AWS certs
+        - solution architects
+        - solution dev associte
+        - sys ops admin
+    - skill side 
+        - python
+        - Node js
+        - docker 
+        - kubernetes
+        - chef/ ansible/ puppet
+```
+
