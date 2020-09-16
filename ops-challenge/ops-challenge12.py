@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import psutil
-import math
 
 # Script Name: Ops Challenge: Class 11
 # Author: Jin Kim
@@ -11,17 +10,18 @@ import math
 
 def printCPU(param):
     result = str(psutil.cpu_times())
+    print(f" this is from ps util cpu times{psutil.cpu_times()}")
     finalOutput = result.split(",")
-    print(finalOutput)
-    if(param == "user"):
-        output = finalOutput[0].split("(")[1]
-    elif(param == "system"):
-        output = finalOutput[1]
-    elif(param == "idle"):
-        output = finalOutput[2]
-    #elif(param == "")
+    #print(finalOutput)
+    # if(param == "user"):
+    #     output = finalOutput[0].split("(")[1]
+    # elif(param == "system"):
+    #     output = finalOutput[2]
+    # elif(param == "idle"):
+    #     output = finalOutput[3]
+    # elif(param == "")
     
-    print(f"{output} seconds")
+    # print(f"{output} seconds")
 
 
 ## HELPER 
