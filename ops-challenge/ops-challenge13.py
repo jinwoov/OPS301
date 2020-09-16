@@ -47,8 +47,7 @@ def mainMenu():
     except:
         print("Application didn't work like how it intended to be !!!")
 
-## Get function
-### Get Method
+## Get Method
 def getMethod():
     if(validateChoice("GET")):
         response = requests.get(url)
