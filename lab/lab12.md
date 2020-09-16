@@ -1,5 +1,5 @@
-Vagrant Box
-
+[Vagrant Box](https://app.vagrantup.com/jinfluenza/boxes/ops-globex)  
+[Github](https://github.com/jinwoov/OPS301/blob/master/lab/lab12.md)  
 1. Install vagrant on your computer 
 ![first](./assets/first.png)
 2. Pull down the boxes from the vagrant by using:
