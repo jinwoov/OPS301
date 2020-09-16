@@ -2,47 +2,53 @@
 import requests
 import getpass
 import os
+import time
 
-# Script Name: Ops Challenge: Class 12
+# Script Name: Ops Challenge: Class 13
 # Author: Jin Kim
-# Date of last revision: 09/15/2020
-# Description of purpose: To show different aspects of CPU information
+# Date of last revision: 09/16/2020
+# Description of purpose: To perform HTTP protocols through user's input. Every input from user will determine the final outcome.
 
 # Declaring variable
 
 
 # Declaring function
+## Main interface with error handling
 def mainMenu():
-    userChoice = input(f"""
-    Hi {getpass.getuser()}! What do you want to perform?
-    1. GET
-    2. POST
-    3. PUT
-    4. DELETE
-    5. HEAD
-    6. PATCH
-    7. OPTIONS
-    8. Exit
-    Choice --> """)
+    try:
+        userChoice = input(f"""
+        Hi {getpass.getuser()}! What do you want to perform?
+        1. GET
+        2. POST
+        3. PUT
+        4. DELETE
+        5. HEAD
+        6. PATCH
+        7. OPTIONS
+        8. Exit
+        Choice --> """)
 
-    if(userChoice == "1"):
-        getMethod()
-    elif(userChoice == "2"):
-        postMethod()
-    elif(userChoice == "3"):
-        putMethod()
-    elif(userChoice == "4"):
-        deleteMethod()
-    elif(userChoice == "5"):
-        headMethod()
-    elif(userChoice == "6"):
-        patchMethod()
-    elif(userChoice == "7"):
-        optionsMethod()
-    else:
-        exit(0)
+        if(userChoice == "1"):
+            getMethod()
+        elif(userChoice == "2"):
+            postMethod()
+        elif(userChoice == "3"):
+            putMethod()
+        elif(userChoice == "4"):
+            deleteMethod()
+        elif(userChoice == "5"):
+            headMethod()
+        elif(userChoice == "6"):
+            patchMethod()
+        elif(userChoice == "7"):
+            optionsMethod()
+        else:
+            exit(0)
+    except:
+        print("Application didn't work like how it intended to be !!!")
 
 ## Get function
+### Get Method
 def getMethod():
     if(validateChoice("GET")):
         response = requests.get(url)
@@ -91,7 +97,9 @@ def optionsMethod():
         statCode = int(response.status_code)
         statusCodes(statCode)
 
+# Final out put after running the query to the given URL
 def statusCodes(statCode):
+    timeOut()
     if (statCode >= 100 and statCode < 200):
         print(colors.fg.orange,f"{getpass.getuser()}, you got informational response from {url}")
     elif (statCode >= 200 and statCode < 300):
@@ -131,8 +139,25 @@ class colors:
         red='\033[0;31m'
         orange = '\033[33m'
 
+## timeout to give user a realistic experience
+def timeOut():
+    print("Querying.....")
+    time.sleep(2)
+
+### STRETCH GOAL
+## Calling authentication to the GitHub api
+def authentication():
+    username = input("Type your username: ")
+    password= input("Type your password: ")
+    response = requests.get(f"https://api.github.com/user, ",
+                auth = requests.auth.HTTPBasicAuth(username, password))
+    print(response.status_code)
+
+
 # MAIN
 url = whatSite()
 mainMenu()
+authentication()
 exit(0)
+
 # END
