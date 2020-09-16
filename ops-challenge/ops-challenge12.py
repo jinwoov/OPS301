@@ -7,10 +7,17 @@ import psutil
 # Date of last revision: 09/15/2020
 # Description of purpose: To show different aspects of CPU information
 
+# DECLARE VARIABLES
+filePath = "./cpuInfo.txt"
+fileNew = open(filePath, "w")
+fileNew.close()
+
+# DECLARE FUNCTION
 ## This is to check what the function call is going to be using to output cpu info
 def printCPU(param):
     result = str(psutil.cpu_times())
     finalOutput = result.split(",")
+    file1 = open(filePath, "a")
     if(param == "user"):
         output = finalOutput[0].split("(")[1]
         output = output.split("=")[1]
@@ -36,6 +43,9 @@ def printCPU(param):
         output = finalOutput[8]
         output = output.split("=")[1]
     print(f" {output} seconds")
+    file1.writelines(f"{output} seconds\n")
+    file1.writelines("\n")
+    file1.close()
 
 ## To make it clean, call stack carries all of the function call
 def callStack():
@@ -68,6 +78,10 @@ def callStack():
 def heading(headings):
     print(colors.fg.green, headings)
     print(colors.reset)
+    file1 = open(filePath, "a")
+    file1.write(f"{headings}\n")
+    file1.close()
+
 
 ## class that contains default color that can be used for console
 class colors:
@@ -78,5 +92,6 @@ class colors:
 
 # MAIN
 callStack()
+
 
 # END
