@@ -30,3 +30,10 @@
 
 ---
 
+## Windows Server Updates Services
+- WSUS enables admin to deploy latest Microsoft product updates
+- WSUS server role description
+    - The server that acts as an update source is called an upstream server
+    - As a admin you can determine base on network security and configuration
+- By using PowerShell to update you can increase productivity, reduce the learning curve for new tools and reduce errors due to failed expectation resulting from lack of consistency across similar operation.
+
