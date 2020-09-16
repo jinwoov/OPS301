@@ -24,3 +24,4 @@ This repo is for Ops 301 coursework
 [10. Reading: Linux Web Server](./Reading/Reading10.md)  
 [11. Reading: Azure Cloud Administration](./Reading/Reading11.md)  
 [12. Reading: DevOps](./Reading/Reading12.md)  
+[13. Reading: Patch Management](./Reading/Reading13.md)  
