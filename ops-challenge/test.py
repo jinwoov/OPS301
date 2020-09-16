@@ -2,8 +2,8 @@ import psutil
 
 
 cpuInfo = str(psutil.cpu_times())
-
 result = cpuInfo.split(", ")
+
 print(result)
 # print(result)
 #print("Time spent by normal processes executing in user mode")
@@ -19,6 +19,7 @@ print(result)
 #print(result[1])
 
 # print("5th question")
-print(result[4], "seconds")
+# print(result[4], "seconds")
 
-
+print("6thquestion")
+print(result[5])
