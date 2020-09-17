@@ -109,6 +109,7 @@ def statusCodes(statCode):
         print(colors.fg.red,f"{getpass.getuser()}, you done mess up from {url}")
     else:
         print(colors.fg.red,f"{getpass.getuser()}, Server had error to your request from {url}")
+    print(colors.reset)
 
 ## Validating if the choice was yes
 def validateChoice(choice):
