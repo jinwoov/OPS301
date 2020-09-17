@@ -5,4 +5,19 @@
 - SQL can be used insert, search, update and delete database recds.
 - There are multiple databases available MySQL, Oracle, Ms Sql, Sybase,
 - There are four major types of DBMS 
-    - Hierarchical: Employ
+    - Hierarchical: parent-child relationship of storing data. This Windows registry used in Windows XP is an example of hierarchical database.
+    - Relational DBMS: this is type of databases relationship in the form of many to many relationship.
+    - It is the most popular DBMS type in the market
+    - Object-Oriented Relation DBMS: supports storing new data type. PostgresSQL is an example
+- NoSQL
+    - an upcoming category of Database Management system.
+    - its specialty is that it is non-adherence to Relation Database Concept
+    - When you use relational database for big data, it tends to slow the system.
+    - Alternative way to solve this problem is to distribute load to multiple hosts as the load increases.
+    - This is call `scaling out`.
+    - NoSQL is called `non-relation database` that scale-out better than relational database and are designed with web application
+    - They do not use SQL to query the data and doesn't not follow traditional strict schema like relational models.
+- NoSQL works better for those who are dealing with huge sets of data.
+- SQL database have a mature data storage and management model.
+- DBMS stands for `Database Management System.`
+- 
