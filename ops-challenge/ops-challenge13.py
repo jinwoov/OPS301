@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import requests
+from requests import get, post, put, delete, head, patch, options
 import getpass
 import os
 import time
@@ -29,70 +29,28 @@ def mainMenu():
         Choice --> """)
 
         if(userChoice == "1"):
-            getMethod()
+            requestMethod("GET")
         elif(userChoice == "2"):
-            postMethod()
+            requestMethod("POST")
         elif(userChoice == "3"):
-            putMethod()
+            requestMethod("PUT")
         elif(userChoice == "4"):
-            deleteMethod()
+            requestMethod("DELETE")
         elif(userChoice == "5"):
-            headMethod()
+            requestMethod("HEAD")
         elif(userChoice == "6"):
-            patchMethod()
+            requestMethod("Patch")
         elif(userChoice == "7"):
-            optionsMethod()
+            requestMethod("OPTIONS")
         else:
             exit(0)
     except:
         print("Application didn't work like how it intended to be !!!")
 
-## Get Method
-def getMethod():
-    if(validateChoice("GET")):
-        response = requests.get(url)
-        statCode = int(response.status_code)
-        statusCodes(statCode)
-
-## post function
-def postMethod():
-    if(validateChoice("POST")):
-        response = requests.post(url)
-        statCode = int(response.status_code)
-        statusCodes(statCode)
-
-## put function
-def putMethod():
-    if(validateChoice("PUT")):
-        response = requests.put(url)
-        statCode = int(response.status_code)
-        statusCodes(statCode)
-
-## Delete method
-def deleteMethod():
-    if(validateChoice("DELETE")):
-        response = requests.delete(url)
-        statCode = int(response.status_code)
-        statusCodes(statCode)
-
-## Head Method
-def headMethod():
-    if(validateChoice("HEAD")):
-        response = requests.head(url)
-        statCode = int(response.status_code)
-        statusCodes(statCode)
-
-## Patch Method
-def patchMethod():
-    if(validateChoice("PATCH")):
-        response = requests.patch(url)
-        statCode = int(response.status_code)
-        statusCodes(statCode)
-
-## Options Method
-def optionsMethod():
-    if(validateChoice("OPTIONS")):
-        response = requests.options(url)
+## request method (refactored)
+def requestMethod(method):
+    if(validateChoice(method)):
+        response = eval(str.lower(method))(url)
         statCode = int(response.status_code)
         statusCodes(statCode)
 
