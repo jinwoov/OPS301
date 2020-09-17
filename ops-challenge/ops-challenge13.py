@@ -16,36 +16,27 @@ requestArr = ["GET", "POST", "PUT", "DELETE", "HEAD", "PATCH", "OPTIONS"]
 ## Main interface with error handling
 def mainMenu():
     try:
-        userChoice = input(f"""
-        Hi {getpass.getuser()}! What do you want to perform?
-        1. {requestArr[0]}
-        2. POST
-        3. PUT
-        4. DELETE
-        5. HEAD
-        6. PATCH
-        7. OPTIONS
-        8. Exit
-        Choice --> """)
+        count = 1
+        print(f"Hi {getpass.getuser()}! What do you want to perform?")
+        for r in requestArr:
+            print(f"{str(count)}. {r}")
+            count += 1
+        userChoice = input("Choice --> ")
+        if(int(userChoice) > 7):
+            raise ValueError
+        requestMethod(requestArr[int(userChoice)])
 
-        if(userChoice == "1"):
-            requestMethod("GET")
-        elif(userChoice == "2"):
-            requestMethod("POST")
-        elif(userChoice == "3"):
-            requestMethod("PUT")
-        elif(userChoice == "4"):
-            requestMethod("DELETE")
-        elif(userChoice == "5"):
-            requestMethod("HEAD")
-        elif(userChoice == "6"):
-            requestMethod("Patch")
-        elif(userChoice == "7"):
-            requestMethod("OPTIONS")
-        else:
-            exit(0)
-    except:
-        print("Application didn't work like how it intended to be !!!")
+    except ValueError:
+        print("You entered wrong choice!!")
+        exit(0)
+
+#checking if its int parsable
+def checkParsable(num):
+    try: 
+        int(s)
+        return True
+    except ValueError:
+        return False
 
 ## request method (refactored)
 def requestMethod(method):
