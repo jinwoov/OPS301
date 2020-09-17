@@ -1,5 +1,6 @@
 #!/usr/bin/python
 from requests import get, post, put, delete, head, patch, options
+## library utilized to get current user's username 
 import getpass
 import os
 import time
@@ -31,13 +32,7 @@ def mainMenu():
         print("You entered wrong choice!!")
         exit(0)
 
-#checking if its int parsable
-def checkParsable(num):
-    try: 
-        int(s)
-        return True
-    except ValueError:
-        return False
+
 
 ## request method (refactored)
 def requestMethod(method):
@@ -50,13 +45,13 @@ def requestMethod(method):
 def statusCodes(statCode):
     timeOut()
     if (statCode >= 100 and statCode < 200):
-        print(colors.fg.orange,f"{getpass.getuser()}, you got informational response from {url}")
+        print(colors.fg.orange,f"{getpass.getuser()}, you got informational querying response from {url}")
     elif (statCode >= 200 and statCode < 300):
-        print(colors.fg.green,f"{getpass.getuser()}, your response came back successful from {url}")
+        print(colors.fg.green,f"{getpass.getuser()}, your response came back querying successful from {url}")
     elif (statCode >= 300 and statCode < 400):
-        print(colors.fg.orange,f"{getpass.getuser()}, you were redirected from {url}")
+        print(colors.fg.orange,f"{getpass.getuser()}, you were redirected querying from {url}")
     elif (statCode >= 400 and statCode < 500):
-        print(colors.fg.red,f"{getpass.getuser()}, you done mess up from {url}")
+        print(colors.fg.red,f"{getpass.getuser()}, you done mess up querying from {url}")
     else:
         print(colors.fg.red,f"{getpass.getuser()}, Server had error to your request from {url}")
     print(colors.reset)
@@ -93,6 +88,14 @@ class colors:
 def timeOut():
     print("Querying.....")
     time.sleep(2)
+
+#checking if its int parsable
+def checkParsable(num):
+    try: 
+        int(s)
+        return True
+    except ValueError:
+        return False
 
 ### STRETCH GOAL
 ## Calling authentication to the GitHub api
