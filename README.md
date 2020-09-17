@@ -25,3 +25,4 @@ This repo is for Ops 301 coursework
 [11. Reading: Azure Cloud Administration](./Reading/Reading11.md)  
 [12. Reading: DevOps](./Reading/Reading12.md)  
 [13. Reading: Patch Management](./Reading/Reading13.md)  
+[14. Reading: Database Administration](./Reading/Reading14.md)  
