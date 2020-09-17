@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from requests import get, post, put, delete, head, patch, options
+from requests import get, post, put, delete, head, patch, options, auth
 ## library utilized to get current user's username 
 import getpass
 import os
@@ -102,8 +102,8 @@ def checkParsable(num):
 def authentication():
     username = input("Type your username: ")
     password= input("Type your password: ")
-    response = requests.get(f"https://api.github.com/user, ",
-                auth = requests.auth.HTTPBasicAuth(username, password))
+    response = get(f"https://api.github.com/user, ",
+                auth = auth.HTTPBasicAuth(username, password))
     print(response.status_code)
 
 
