@@ -22,9 +22,10 @@ def mainMenu():
             print(f"{str(count)}. {r}")
             count += 1
         userChoice = input("Choice --> ")
-        if(int(userChoice) > 7):
+        if(int(userChoice) > 6):
             raise ValueError
-        requestMethod(requestArr[int(userChoice)])
+        userChoice = int(userChoice) - 1
+        requestMethod(requestArr[userChoice])
 
     except ValueError:
         print("You entered wrong choice!!")
