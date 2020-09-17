@@ -1,8 +1,6 @@
-from requests import get, post, delete, options, head
+hello = """
 
-s = "get"
-
-response = eval(s)("https://google.com")
-
-
-print(response.status_code)
+        1. file
+        2. bye
+        """
+count = 0

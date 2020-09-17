@@ -11,14 +11,14 @@ import time
 
 # Declaring variable
 
-
+requestArr = ["GET", "POST", "PUT", "DELETE", "HEAD", "PATCH", "OPTIONS"]
 # Declaring function
 ## Main interface with error handling
 def mainMenu():
     try:
         userChoice = input(f"""
         Hi {getpass.getuser()}! What do you want to perform?
-        1. GET
+        1. {requestArr[0]}
         2. POST
         3. PUT
         4. DELETE
