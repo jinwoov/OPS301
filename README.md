@@ -26,3 +26,4 @@ This repo is for Ops 301 coursework
 [12. Reading: DevOps](./Reading/Reading12.md)  
 [13. Reading: Patch Management](./Reading/Reading13.md)  
 [14. Reading: Database Administration](./Reading/Reading14.md)  
+[15. Reading: DIVERSITY AND INCLUSION](./Reading/Reading15.md)  
